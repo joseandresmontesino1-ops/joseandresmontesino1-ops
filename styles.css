@@ -132,6 +132,8 @@
             align-items: center;
             text-align: center;
             position: relative;
+           background-repeat: no-repeat; /* Añade esto */
+           background-color: #000; /* Fondo negro para los espacios vacíos */
             
         }
 
