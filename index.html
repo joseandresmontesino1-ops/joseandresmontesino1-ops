@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENTADOS de la Sierra | Música Sierreña y Corridos Tumbados</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Mentados<span> de la Sierra</span></div>
+                <div class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#music">Música</a></li>
+                    <li><a href="#album">Álbum</a></li>
+                    <li><a href="#social">Redes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Mentados de la Sierra</h1>
+                <p>Música sierreña y corridos tumbados que capturan la esencia de la vida mexicana. Una fusión de tradición y modernidad que conecta con el corazón de nuestra gente.</p>
+                <div class="hero-buttons">
+                    <a href="#music" class="btn btn-primary">Escuchar Música</a>
+                    <a href="#album" class="btn btn-secondary">Último Álbum</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Nuestra Historia</h2>
+                    <p>Mentados de la Sierra nace en las montañas de México, donde la tradición musical sierreña se encuentra con la energía moderna de los corridos tumbados. Somos un grupo de músicos apasionados que buscan preservar nuestras raíces mientras innovamos con nuevos sonidos que conectan con las nuevas generaciones.</p>
+                    <p>Nuestra música cuenta historias reales, experiencias de vida y emociones profundas que resuenan con nuestro público. Con cada canción, buscamos transmitir la autenticidad de la cultura mexicana y la riqueza de nuestras tradiciones musicales.</p>
+                    <p>Hemos tocado en los escenarios más importantes del país y compartido nuestra música con miles de personas que han hecho de nuestras canciones parte de sus vidas.</p>
+                </div>
+                <div class="about-image">
+                    <img src="./5.jpg" alt="MENTADOS de la Sierra en concierto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ 
+<!-- Galería -->
+
+
+<section id="gallery" class="gallery">
+    <div class="container">
+        <h2 class="section-title">Galería</h2>
+        <div class="carousel-container">
+            <div class="carousel-slider" id="carousel-slider">
+                <div class="carousel-slide">
+                    <img src="./somos_mismos.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./1.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./2.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./3.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./4.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./8.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./6.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./7.jpg" alt="Concierto MENTADOS de la Sierra">
+                </div>
+
+            </div>
+            <button class="carousel-btn prev-btn" id="prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn next-btn" id="next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel-dots" id="carousel-dots">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Música -->
+<section id="music" class="music-section">
+    <div class="container">
+        <h2 class="section-title">Nuestra Música</h2>
+
+        <!-- Reproductor de YouTube -->
+        <div class="youtube-player-container">
+            <h3>Escucha nuestra playlist oficial</h3>
+            <div class="youtube-wrapper">
+                <iframe 
+                    width="100%" 
+                    height="500" 
+                    src="https://www.youtube.com/embed/videoseries?list=OLAK5uy_mDgHlq2DeM2L0pddtFPVwL5J6zIDDpTVQ&autoplay=1&mute=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="youtube-note">* La playlist se reproduce automáticamente (inicia silenciada)</p>
+        </div>
+
+        <!-- Plataformas de streaming -->
+        <div class="music-platforms-section">
+            <h3>Escucha en tu plataforma favorita</h3>
+            <div class="platforms-grid">
+                <a href="https://youtube.com/@mentadosmusic?si=8H_VBrB4H-95UoLB" target="_blank" class="platform-card">
+                    <div class="platform-icon youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h4>YouTube</h4>
+                        <p>Canal oficial</p>
+                    </div>
+                </a>
+                
+                <a href="https://open.spotify.com/intl-es/artist/3L4EW8vvAicbr4Po5mQM9P" target="_blank" class="platform-card">
+                    <div class="platform-icon spotify">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h4>Spotify</h4>
+                        <p>Nuestros éxitos</p>
+                    </div>
+                </a>
+                
+                <a href="https://music.apple.com/mx/artist/mentados-de-la-sierra/1556208792" target="_blank" class="platform-card">
+                    <div class="platform-icon apple">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h4>Apple Music</h4>
+                        <p>En iTunes</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Botón de WhatsApp para contrataciones -->
+        <div class="whatsapp-section">
+            <a href="https://wa.me/527227801873?text=Hola,%20estoy%20interesado%20en%20contratar%20a%20MENTADOS%20de%20la%20Sierra" target="_blank" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Contratar para Eventos
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <!-- Álbum Destacado -->
+    <section id="album" class="album-section">
+        <div class="container">
+            <h2 class="section-title">Último Álbum</h2>
+            <div class="album-container">
+                <div class="album-cover">
+                    <img src="./mentados.webp" alt="B4D IN LOV3">
+                </div>
+                <div class="album-info">
+                    <h3>B4D IN LOV3</h3>
+                    <p>Nuestro álbum más reciente.</p>
+                    <p>Disponible en todas las plataformas digitales desde el 25 de Diciembre de 2025.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section id="social" class="social-section">
+        <div class="container">
+            <h2 class="section-title">Síguenos en Redes</h2>
+            <p>Conéctate con nosotros y mantente al día con nuestras últimas noticias, conciertos y lanzamientos.</p>
+            <div class="social-links">
+                <a href="https://facebook.com/MentadosdelaSierra" target="_blank" class="social-link facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com/MentadosDeLaSierrOficial" target="_blank" class="social-link instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@mentadosalv?_r=1&_t=ZS-93Sa2TWeCgL" target="_blank" class="social-link tiktok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">MENTADOS <span>de la Sierra</span></div>
+            <ul class="footer-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#music">Música</a></li>
+                <li><a href="#album">Álbum</a></li>
+                <li><a href="#social">Redes</a></li>
+            </ul>
+            <div class="copyright">
+                <p>&copy; 2026 MENTADOS de la Sierra. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
